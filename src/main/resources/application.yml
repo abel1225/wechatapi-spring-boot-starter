@@ -1,0 +1,45 @@
+qywechat:
+    corpid: '#{defaultcorpid}'
+    host: '#{defaulthost}'
+    app:
+        default:
+            agentid: #{defaultagentId}
+            corpsecret: '#{defaultcorpsecret}'
+            mainhost: '#{defaultmainhost}'
+    customer:
+        secret: '#{defaultcustomersecret}'
+        state: '#{defaultcustomerstate}'
+    message:
+        encodingaeskey: '#{defaultmessageencodingaeskey}'
+        token: '#{defaultmessagetoken}'
+    url:
+        accesstoken: https://qyapi.weixin.qq.com/cgi-bin/gettoken?corpid=APPID&corpsecret=SECRET
+        addcontactway: https://qyapi.weixin.qq.com/cgi-bin/crm/add_contact_way?access_token=ACCESS_TOKEN
+        authsucc: https://qyapi.weixin.qq.com/cgi-bin/user/authsucc?access_token=ACCESS_TOKEN&userid=USERID
+        batchinvite: https://qyapi.weixin.qq.com/cgi-bin/batch/invite?access_token=ACCESS_TOKEN
+        code2user: https://qyapi.weixin.qq.com/cgi-bin/user/getuserinfo?access_token=ACCESS_TOKEN&code=CODE
+        converttoopenid: https://qyapi.weixin.qq.com/cgi-bin/user/convert_to_openid?access_token=ACCESS_TOKEN
+        converttouserid: https://qyapi.weixin.qq.com/cgi-bin/user/convert_to_userid?access_token=ACCESS_TOKEN
+        customercontactdetail: https://qyapi.weixin.qq.com/cgi-bin/externalcontact/get?access_token=ACCESS_TOKEN&external_userid=EXTERNAL_USERID
+        customercontactlist: https://qyapi.weixin.qq.com/cgi-bin/externalcontact/list?access_token=ACCESS_TOKEN&userid=USERID
+        customercontacts: https://qyapi.weixin.qq.com/cgi-bin/externalcontact/get_follow_user_list?access_token=ACCESS_TOKEN
+        delcontactway: https://qyapi.weixin.qq.com/cgi-bin/crm/del_contact_way?access_token=ACCESS_TOKEN
+        departmentcreate: https://qyapi.weixin.qq.com/cgi-bin/department/create?access_token=ACCESS_TOKEN
+        departmentdelete: https://qyapi.weixin.qq.com/cgi-bin/department/delete?access_token=ACCESS_TOKEN&id=ID
+        departments: https://qyapi.weixin.qq.com/cgi-bin/department/list?access_token=ACCESS_TOKEN&id=ID
+        departmentupdate: https://qyapi.weixin.qq.com/cgi-bin/department/update?access_token=ACCESS_TOKEN
+        getcontactway: https://qyapi.weixin.qq.com/cgi-bin/crm/get_contact_way?access_token=ACCESS_TOKEN
+        oauth: https://open.weixin.qq.com/connect/oauth2/authorize?appid=CORPID&redirect_uri=REDIRECT_URI&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect
+        redirect: https://qyapi.weixin.qq.com/connect/oauth2/authorize?appid=APPID&redirect_uri=REDIRECT_URI&response_type=code&scope=SCOPE&state=STATE#wechat_redirect
+        msgsend: https://qyapi.weixin.qq.com/cgi-bin/message/send?access_token=ACCESS_TOKEN
+        tagget: https://qyapi.weixin.qq.com/cgi-bin/tag/get?access_token=ACCESS_TOKEN&tagid=TAGID
+        transferexternalcontact: https://qyapi.weixin.qq.com/cgi-bin/crm/transfer_external_contact?access_token=ACCESS_TOKEN
+        unassignedcustomers: https://qyapi.weixin.qq.com/cgi-bin/crm/get_unassigned_customers?access_token=ACCESS_TOKEN
+        updatecontactway: https://qyapi.weixin.qq.com/cgi-bin/crm/update_contact_way?access_token=ACCESS_TOKEN
+        userbaselist: https://qyapi.weixin.qq.com/cgi-bin/user/simplelist?access_token=ACCESS_TOKEN&department_id=DEPARTMENT_ID&fetch_child=FETCH_CHILD
+        userbatchdelete: https://qyapi.weixin.qq.com/cgi-bin/user/batchdelete?access_token=ACCESS_TOKEN
+        usercreate: https://qyapi.weixin.qq.com/cgi-bin/user/create?access_token=ACCESS_TOKEN
+        userdelete: https://qyapi.weixin.qq.com/cgi-bin/user/delete?access_token=ACCESS_TOKEN&userid=USERID
+        userdetaillist: https://qyapi.weixin.qq.com/cgi-bin/user/list?access_token=ACCESS_TOKEN&department_id=DEPARTMENT_ID&fetch_child=FETCH_CHILD
+        userget: https://qyapi.weixin.qq.com/cgi-bin/user/get?access_token=ACCESS_TOKEN&userid=USERID
+        userupdate: https://qyapi.weixin.qq.com/cgi-bin/user/update?access_token=ACCESS_TOKEN
