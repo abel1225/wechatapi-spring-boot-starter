@@ -1,1 +1,1 @@
-https://github.com/abel1225/qywechat-spring-boot-starter
+https://github.com/abel1225/wechatapi-spring-boot-starter
