@@ -1,1 +1,1 @@
-https://github.com/abel1225/weixinapi-spring-boot-starter
+对接企业微信Api
